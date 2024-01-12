@@ -1,5 +1,8 @@
 package Features;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
@@ -20,6 +23,7 @@ public class BaseClass {
 	
 	@Before
 	public void beforeScenario() {
+		WebDriver driver=new EdgeDriver();
 		System.out.println("Running before Scenario");
 		System.out.println("Running before Scenario");
 		System.out.println("Running before Scenario");
