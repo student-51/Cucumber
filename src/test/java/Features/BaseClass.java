@@ -5,6 +5,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	
@@ -23,6 +24,7 @@ public class BaseClass {
 	
 	@Before
 	public void beforeScenario() {
+		WebDriverManager.edgedriver().setup();
 		WebDriver driver=new EdgeDriver();
 		System.out.println("Running before Scenario");
 		System.out.println("Running before Scenario");
