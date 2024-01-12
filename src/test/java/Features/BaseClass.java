@@ -1,7 +1,7 @@
 package Features;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -24,8 +24,8 @@ public class BaseClass {
 	
 	@Before
 	public void beforeScenario() {
-		WebDriverManager.edgedriver().setup();
-		WebDriver driver=new EdgeDriver();
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
 		System.out.println("Running before Scenario");
 		System.out.println("Running before Scenario");
 		System.out.println("Running before Scenario");
