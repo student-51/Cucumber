@@ -35,12 +35,12 @@ public class BaseClass {
 		System.out.println("chrome is lauched");
 		driver.get("https://www.selenium.dev/documentation/webdriver/browsers/edge/");
 		System.out.println("selenium dev website is opened");
-		Thread.sleep(10000);
-		driver.findElement(By.linkText("Downloads")).click();
-		System.out.println("downloads link is clicked");
-		Thread.sleep(10000);
-		driver.findElement(By.linkText("Projects"));
-		System.out.println("Projets link is clicked");
+		// Thread.sleep(10000);
+		// driver.findElement(By.linkText("Downloads")).click();
+		// System.out.println("downloads link is clicked");
+		// Thread.sleep(10000);
+		// driver.findElement(By.linkText("Projects"));
+		// System.out.println("Projets link is clicked");
 	}
 	@After
 	public void afterScenario() {
