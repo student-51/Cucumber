@@ -17,10 +17,7 @@ public class BaseClass {
 //		System.out.println("Running after all Scenario");		
 //		System.out.println("Running after all Scenario");		
 //	}
-	@Before(order=1)
-	public void c() throws InterruptedException {
-		System.out.println("Running before Scenario 1");
-	}
+
 	@Before(order=2)
 	public void b() throws InterruptedException {
 		System.out.println("Running before Scenario 2");
