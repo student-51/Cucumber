@@ -6,5 +6,5 @@
 		  <class name="testRunner.SearchRunner"></class>
 		  <class name="Features.estRunners"></class>
 	  </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test>
+</suite>
