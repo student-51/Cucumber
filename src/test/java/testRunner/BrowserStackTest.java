@@ -15,6 +15,7 @@ public class BrowserStackTest {
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 
     public static void main(String[] args) throws Exception {
+    	
         // Set DesiredCapabilities for BrowserStack
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(CapabilityType.BROWSER_NAME, "Chrome");
@@ -38,5 +39,6 @@ public class BrowserStackTest {
         } finally {
             driver.quit(); // Quit the session
         }
+        
     }
 }
