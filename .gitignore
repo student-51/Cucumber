@@ -1,5 +1,6 @@
+.project
+.gitignore
+.classpath
 /target/
 /test-output/
-.classpath
-.gitignore
-.project
+msedgedriver.exe
